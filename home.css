@@ -1,0 +1,12 @@
+@font-face 
+{
+    font-family: Design;
+    src: url(font/Designosaur-Regular.ttf);
+}
+
+.navigation
+{
+    display: grid;
+    grid-template-columns: 2fr 4fr 3fr 3fr ;
+}
+
