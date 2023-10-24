@@ -6,24 +6,187 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="../HW_2/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="bootstrap-5/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
 <body>
     <!--------------------------NAVIGATION--------------------------------->
-    <div class="navigation">
-        <div class "navigation-item-1">
-            <img class="brand-logo" src="images/Layer 1.png">
-            <p id="brand-name">Target</p>
-        </div>
-    </div>
+    <ul class="navigation border-bottom">
+        <li><a href="index.html"><img src="images/logo.png" alt=""></a></li>
+        <li id="slogan">
+            <p>Premium landing page</i>
+        </li>
+        <li style="float:right">
+            <h5 id="phone-number">Call Now! 1800-123-456</h5>
+        </li>
+    </ul>
+
     <!--------------------------BANNER--------------------------------->
-    <!--------------------------FEATURES--------------------------------->
+    <div class="container-fluid border-bottom">
+        <div class="container banner">
+            <div class="row">
+                <!----- Banner Text ----->
+                <div class="col-xl-6">
+                    <h1 id="title">The perfect way to convert your traffic into sales</h1>
+                    <p id="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>
+                        Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic
+                        ad nauseum.
+                        </i>
+                        <button class="purchase-btn">Purchase Now</button>
+                        <button class="tour-btn">Take a tour</button>
+                </div>
+                <!----- Banner Img ----->
+                <div class="col-xl-6 carousel slide" data-bs-ride="carousel">
+                    <!--- Carousel buttons --->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon">
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon">
+                    </button>
+                    <!--- Carousel items --->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="1500">
+                            <img src="images/banner-img.png" class="d-block w-100" alt="banner-1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    </div>
+        <!--------------------------FEATURES--------------------------------->
+        <div class="container-fluid border-bottom">
+            <div class="container services">
+                <div class="row">
+                    <!-- Service 1 -->
+                    <div class="col-xl-1">
+                        <img src="images/icon-1.png" alt="icon-1" class="d-block w-100">
+                    </div>
+                    <div class="col-xl-3">
+                        <h6>Quick and easy</h6>
+                        <p class="service-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</i>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="col-xl-1">
+                        <img src="images/icon-2.png" alt="icon-2" class="d-block w-100">
+                    </div>
+                    <div class="col-xl-3">
+                        <h6>Less risky</h6>
+                        <p class="service-text">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                            molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.
+                            </i>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="col-xl-1">
+                        <img src="images/icon-3.png" alt="icon-3" class="d-block w-100">
+                    </div>
+                    <div class="col-xl-3">
+                        <h6>Optimized</h6>
+                        <p class="text">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et
+                            gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum.</i>
 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------------------FEATURES--------------------------------->
+        <div class="container-fluid border-bottom">
+            <div class="container features-checkout">
+                <div class="col-xl-7" id="description">
+                    <h6>Check out the features</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                        ut laoreet dolore magna aliquam erat volutpat. Epsum factorial non deposit quid pro quo hic
+                        escorol. Olypian quarrels et gorilla congolium sic ad nauseum.<br>Epsum factorial non deposit
+                        quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus
+                        carborundum e pluribus unum. Defacto lingo est igpay atinlay.Marquee selectus non provisio
+                        incongruous feline nolo contendre. Gratuitous octopus niacin, sodium glutimate.
+                        </i>
+                </div>
+                <div class="col-xl-5 checkout-list">
+                    <i class="fa fa-caret-right " aria-hidden="false">Lorem ipsum dolor sit amet</i>
+                    <i class="fa fa-caret-right checkout-list-item border-bottom" aria-hidden="false"> Consectetuer
+                        adipiscing elit sed diam</i>
+                    <i class="fa fa-caret-right checkout-list-item border-bottom" aria-hidden="false"> Nibh euismod
+                        tincidunt ut</i>
+                    <i class="fa fa-caret-right checkout-list-item border-bottom" aria-hidden="false"> Laoreet
+                        dolore magna aliquam erat volutpat</i>
+                </div>
+            </div>
+        </div>
+        <!----- Footer ----->
+        <div class="container-fluid pre-footer">
+            <div class="row">
+                <!--Payment method-->
+                <div class="col-xl-3 content">
+                    <h6>Payment method</h6>
+                    <p>
+                        <b>Ma quande lingues coalesce, li grammatica del resultant lingue es plu</b> simplic e regulari
+                        quam ti del coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li
+                        existent Europan lingues.
+                    </p>
+                    <ul>
+                        <li><img src="images/payment_1.png" alt="payment_1" width="34px"></li>
+                        <li><img src="images/payment_2.png" alt="payment_2" width="34px"></li>
+                        <li><img src="images/payment_3.png" alt="payment_3" width="34px"></li>
+                    </ul>
+                </div>
+
+                <!--Get in touch-->
+                <div class="col-xl-3 content">
+                    <h6>Get in touch</h6>
+                    <p>
+                        <b>123 Main Street #3</b> <br>
+                        San Francisco, CA, 94101 <br>
+                        <b>Phone:</b> (866) 123-4567 ext#1 <br>
+                        <b>FAX:</b> (866) 123-0000 <br>
+                        <b>Email:</b> webdesign@shegy.pl <br>
+                    </p>
+                </div>
+
+                <!--Design details-->
+                <div class="col-xl-3 content">
+                    <h6>Design details</h6>
+                    <p>
+                        <b>123 Main Street #3</b> <br>
+                        San Francisco, CA, 94101 <br>
+                        <b>Phone:</b> (866) 123-4567 ext#1 <br>
+                        <b>FAX:</b> (866) 123-0000 <br>
+                        <b>Email:</b> webdesign@shegy.pl <br>
+                    </p>
+                </div>
+
+                <!--Footer logo-->
+                <div class="col-xl-3">
+                    <img class="footer-logo" src="images/footer-logo.png" alt="footer-logo" width="180px">
+                </div>
+            </div>
+        </div>
+
+        <div class="py-3 main-footer">
+            <div class="row">
+                <ul>
+                    <li style="float:left">
+                        <p style="float:left">Copyright © 2011 Target. All rights reserved. Design by <em
+                                id="special-text">Shegy</em></p>
+                    </li>
+                    <li><img src="images/footer-icon-1.png" alt="footer-icon-1"></li>
+                    <li><img src="images/footer-icon-2.png" alt="footer-icon-2"></li>
+                    <li><img src="images/footer-icon-3.png" alt="footer-icon-3"></li>
+                    <li><img src="images/footer-icon-4.png" alt="footer-icon-4"></li>
+                    <li><img src="images/footer-icon-5.png" alt="footer-icon-5"></li>
+                    <li><img src="images/footer-icon-6.png" alt="footer-icon-6"></li>
+                    <li><img src="images/footer-icon-7.png" alt="footer-icon-7"></li>
+                </ul>
+            </div>
+        </div>
 
 </body>
 
